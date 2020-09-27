@@ -1,339 +1,440 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
 <meta charset="utf-8">
-<title>Free Bootstrap Template | webthemez</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Beauty Salon Bootstrap HTML5 Template | Webthemez</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
  
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
 </head>
 <body>
-<div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header>
-	<!-- end header -->
-	<section id="featured">
-	 
-	<!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li>
-                <img src="img/slides/1.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Awesome Design</h3> 
-					<p>Doloribus omnis minus temporibus perferendis ipsa architecto non, magni quam</p>  
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/2.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Fully Responsive</h3> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elitincidunt eius magni provident.</p> 
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/3.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Multi-purpose Theme</h3> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p>  
-                </div>
-              </li>
-            </ul>
-        </div>
-	<!-- end slider -->
- 
-	</section>
-	<div class="content_white">
-  <h2>Welcome to our Company Website!</h2>
-  <p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas potenti maltam rem aperiam, eaque ipsa quae ab illitecto <br/>beatae vitae dicemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+ <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="active item">
+		<div class="caption zoomIn wow animated"> 		 
+              <h2>BEAUTY <br/><strong>Beauty can be seen in all things</strong></h2>
+              </div>
+			  
+		<img class="" src="img/slide1.jpg" alt=""></div>
+        <div class="item">
+		<div class="caption zoomIn wow animated"> 		 			 
+              <h2>SPA<br/><strong>Best Dreams Happen</strong></h2>
+              </div>
+			  <img class="" src="img/slide2.jpg" alt=""></div>
+        <div class="item">
+		<div class="caption zoomIn wow animated"> 		 			
+              <h2>HAIR STYLE<br/><strong>Take it before its too late</strong></h2>
+             </div><img class="" src="img/slide3.jpg" alt=""></div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
 </div>
-<div class="featured_content">
+
+<!--Header_section-->
+<header id="header_wrapper">
   <div class="container">
-    <div class="row text-center">
-      <div class="col-md-3 feature_grid1"> <i class="fa fa-trophy fa-3x"></i>
-        <h3><a href="#">Legimusinm</a></h3>
-        <p>Lorem ipsum dolor sit amet, unde omnis iste natus error sit voluptatem accusanti quas potenti malesuada vel phasellus.</p>
-        <a href="#" class="feature_btn">More</a> </div>
-      <div class="col-md-3 feature_grid1"> <i class="fa fa-picture-o fa-3x"></i>
-        <h3><a href="#">Serspiciatis</a></h3>
-        <p>Lorem ipsum dolor sit amet, unde omnis iste natus error sit voluptatem accusanti quas potenti malesuada vel phasellus.</p>
-        <a href="#" class="feature_btn">More</a> </div>
-      <div class="col-md-3 feature_grid1"> <i class="fa fa-flask fa-3x"></i>
-        <h3><a href="#">Quisqugesta</a></h3>
-        <p>Lorem ipsum dolor sit amet, unde omnis iste natus error sit voluptatem accusanti quas potenti malesuada vel phasellus.</p>
-        <a href="#" class="feature_btn">More</a> </div>
-      <div class="col-md-3 feature_grid1"> <i class="fa fa-user fa-3x"></i>
-        <h3><a href="#">Architecto</a></h3>
-        <p>Lorem ipsum dolor sit amet, unde omnis iste natus error sit voluptatem accusanti quas potenti malesuada vel phasellus.</p>
-        <a href="#" class="feature_btn">More</a> </div>
+    <div class="header_box">
+      <!--<div class="logo"><a href="#">Resume</a></div>-->
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#carousel" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
+			  <li><a href="#service" class="scroll-link">Our Services	</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">Gallery</a></li> 
+			  <li><a href="#experience" class="scroll-link">Testimonial</a></li> 
+			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			</ul>
+      </div>
+	 </nav>
     </div>
   </div>
-</div>
- 
-	<section id="content">
-	
-	
-	<div class="container">
-		
-	     <div class="row">
-							<div class="col-md-8">
-								<!-- Heading and para -->
-								<div class="block-heading-two">
-									<h3><span>Why Choose Us?</span></h3>
-								</div>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-								<p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo quasi architecto beatae vitae dicta sunt explicabo.</p>
-							</div>
-							<div class="col-md-4">
-								<div class="block-heading-two">
-									<h3><span>Our Solution</span></h3>
-								</div>		
-								<!-- Accordion starts -->
-								<div class="panel-group" id="accordion-alt3">
-								 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
-								  <div class="panel">	
-									<!-- Panel heading -->
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 1
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseOne-alt3" class="panel-collapse collapse">
-										<!-- Panel body -->
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 3
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseThree-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 4
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseFour-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								</div>
-								<!-- Accordion ends -->
-								
-							</div>
-							
-					
-							
-						</div>
-	
-	
-	</div>
-	
-	</section>
-	<div class="testimonial-area">
-    <div class="testimonial-solid">
-        <div class="container"> 
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
-                        <a href="#"></a>
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Mark John -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Jaison Warner -</b>
-                        </p>
-                    </div>
-                    <div class="item active">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Tony Antonio -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Leena Doe -</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+</header>
+<!--Header_section--> 
+
+<section id="aboutUs"><!--Aboutus-->
+<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+  <div class="container">
+    <h2>About Us</h2>
+	<h6>A persone who loves Nature and It's creations</h6>
+    <div class="inner_section">
+ <div class="row">
+      <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" align=""> </div>
+      <div class="col-md-6">
+        <h3>Trending Styles</h3>
+        <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p> 
+         
+        <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. 
+									</p>
+
+									<ul class="about-us-list">
+										<li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li> 
+                                        <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
+										<li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
+									</ul><!-- /.about-us-list -->
+								 
+      </div>
     </div>
-</div>
-	<footer>
+	     </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+    <h2>Our Services</h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+    <div class="service_wrapper">
+      <div class="row">
+        <div class="col-md-3">
+		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-tree"></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">Photography</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+        </div>
+        <div class="col-md-3"> 
+		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-crosshairs"></i></span> </div> 
+		<div class="service_block">
+            <h3 class="animated fadeInUp wow">Editing Skills</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building-o "></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">Lighting</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+          </div>
+        </div>
+		  <div class="col-md-3">
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-twitter"></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">Dimensions</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+          </div>
+        </div>
+      </div> 
+	 
+    </div>
+  </div>
+</section>
+<!--Service-->  
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio_title"> 
+    
+    <!-- Title -->
+    <div class="section-title">
+      <h2>Gallery</h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	  
+    </div>
+    <!--/Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".nature">
+          <h5>Hair Style</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".wildlife">
+          <h5>Beauty</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".citylife">
+          <h5>Make Over</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".animals">
+          <h5>Nature SPA</h5>
+          </a></li> 
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/portfolio_pic1.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+				  <a href="img/portfolio_pic2.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic3.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+      
+      <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+         <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic4.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!-- Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic5.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic6.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item  -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic7.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+       </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+      <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic8.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+    </div>
+    <!--/Portfolio Wrapper --> 
+    
+  </div>
+  <!--/Portfolio Filters -->
+  
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
+</section>
+<!--/Portfolio --> 
+<section id="experience">
+<div class="container">
+    <section id="news" class="white-bg padding-top-bottom">
+	 <div class="section-title">
+      <h2>Testimonial </h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	  
+    </div> 
+	<section id="carousel">    				
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Target company Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
+			<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="active item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+				    </div>
+				  </div>
 				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
+			</div>							
 		</div>
 	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Target 2014 All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script> 
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/owl-carousel/owl.carousel.js"></script>
+			
+	 
+		 </div>
+	</section>
+</div>				                                                      
+</section> 
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Contact Us</h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+     
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>UNIQUE Infoway</h4>
+                                <p>104, Some street, NewYork, USA</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+1 234 567890</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>support@sitename.com</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          
+          <ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+          </ul>
+        </div>
+        <div class="col-lg-8 wow fadeInLeft delay-06s">
+          <div class="form">
+            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="send message">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © reserved,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 </html>
