@@ -1,0 +1,2 @@
+C:\Users\wangsongjie\source\repos\员工管理系统\Debug\员工管理系统.exe
+C:\Users\wangsongjie\source\repos\员工管理系统\Debug\员工管理系统.pdb
