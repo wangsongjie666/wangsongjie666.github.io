@@ -11,9 +11,9 @@ Manager::Manager(int a, string b, int c)
 }
 void Manager::showInfo()
 {
-	cout << "经理编号: " << this->id << endl << "经理名字:  " << this->name << endl << "经理部门编号:  " << this->depid << endl;
+	cout << "缁忕悊缂栧彿: " << this->id << endl << "缁忕悊鍚嶅瓧:  " << this->name << endl << "缁忕悊閮ㄩ棬缂栧彿:  " << this->depid << endl;
 }
 string Manager::getDepName()
 {
-	return string("经理");
+	return string("缁忕悊");
 }

@@ -14,9 +14,9 @@ Employ::Employ(int a, string b, int c)
 }
 void Employ::showInfo()
 {
-	cout << "员工编号: " << this->id << endl << "员工名字:  " << this->name << endl << "员工部门编号:  " << this->depid << endl;
+	cout << "鍛樺伐缂栧彿: " << this->id << endl << "鍛樺伐鍚嶅瓧:  " << this->name << endl << "鍛樺伐閮ㄩ棬缂栧彿:  " << this->depid << endl;
 }
 string Employ::getDepName()
 {
-	return string("员工");
+	return string("鍛樺伐");
 }

@@ -13,9 +13,9 @@ Boss::Boss(int a, string b, int c)
 }
 void Boss::showInfo()
 {
-    cout << "ÀÏ°å±àºÅ: " << this->id << endl << "ÀÏ°åÃû×Ö:  " << this->name << endl << "ÀÏ°å²¿ÃÅ±àºÅ:  " << this->depid << endl;
+    cout << "è€æ¿ç¼–å·: " << this->id << endl << "è€æ¿åå­—:  " << this->name << endl << "è€æ¿éƒ¨é—¨ç¼–å·:  " << this->depid << endl;
 }
 string Boss::getDepName()
 {
-    return string("ÀÏ°å");
+    return string("è€æ¿");
 }

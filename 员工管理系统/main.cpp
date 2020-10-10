@@ -14,7 +14,7 @@ int main()
 	while (1)
 	{
 		a.show_menu();
-		cout << "ÇëÊäÈëÒ»¸öÊý¾Ý " << endl;
+		cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•°æ® " << endl;
 		cin >> choice;
 		switch (choice)
 		{
